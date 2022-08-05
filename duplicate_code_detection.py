@@ -18,7 +18,19 @@ from enum import Enum
 from nltk.tokenize import word_tokenize
 from collections import OrderedDict
 
-source_code_file_extensions = ["h", "c", "cpp", "cc", "java", "py", "cs"]
+source_code_file_extensions = [
+    "h",
+    "c",
+    "cpp",
+    "cc",
+    "java",
+    "py",
+    "cs",
+    "sql",
+    "yaml",
+    "yml",
+    "md",
+]
 file_column_label = "File"
 similarity_column_label = "Similarity (%)"
 similarity_label_length = len(similarity_column_label)
